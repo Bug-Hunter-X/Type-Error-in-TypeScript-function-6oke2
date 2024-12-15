@@ -1,0 +1,3 @@
+# Type Error in TypeScript function
+This example demonstrates a common type error in TypeScript that occurs when passing a string argument to a function that expects a number. 
+The `add` and `subtract` functions are defined to accept two number arguments and return a number. However, in the last call to `add`, the first argument is a string ("5"), which causes a type error because the function expects a number. This is a common error that can be easily avoided by using type checking and ensuring that the types of the arguments passed to a function match the types expected by the function.
